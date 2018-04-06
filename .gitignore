@@ -22,7 +22,7 @@ docroot/themes/custom/*/styleguide
 docroot/themes/custom/*/js/dist
 
 # Settings
-sites/default/settings.php
+docroot/sites/default/settings.php
 
 # Ides.
 .vscode
