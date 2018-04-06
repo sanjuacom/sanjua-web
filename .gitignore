@@ -11,6 +11,7 @@ docroot/modules/contrib
 docroot/themes/contrib
 docroot/profiles/contrib
 docroot/libraries
+docroot/vendor
 drush/contrib
 
 # Ignore custom theme build artifacts
