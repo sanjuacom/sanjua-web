@@ -1,8 +1,8 @@
 country:
-  default: ''
+  default: AR
 first_day: 0
 timezone:
-  default: UTC
+  default: America/Argentina/San_Juan
   user:
     configurable: true
     warn: false

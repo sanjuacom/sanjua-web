@@ -783,20 +783,16 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+
 $databases['default']['default'] = array (
-  'database' => 'sanjuaweb',
+  'database' => 'sanjua',
   'username' => 'root',
-  'password' => 'root',
+  'password' => 'Lezchuzo',
   'prefix' => '',
-  'host' => '127.0.0.1',
+  'host' => 'localhost',
   'port' => '',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_q5gFFUqD2gLi_ejU8CPSqpiIvsQ0LcCAIG6f9b-_4K3Ya9f31UL74FbB5wctOPEokoqmEic6vQ/sync';
 $config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
-$settings['trusted_host_patterns'] = array(
-'^drupal-164096-474474\.cloudwaysapps\.com$',
-'^local\.sanjua\.com$',
-'^sanjua\.com$');
