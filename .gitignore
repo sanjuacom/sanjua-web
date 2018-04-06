@@ -1,17 +1,9 @@
-# Ignore drupal core.
-docroot/core
-
 # Ignore paths that contain user-generated content.
 docroot/sites/*/files
 /files-private
 docroot/sites/*/private
 
 # Ignore contrib modules. These should be created during build process.
-docroot/modules/contrib
-docroot/themes/contrib
-docroot/profiles/contrib
-docroot/libraries
-docroot/vendor
 drush/contrib
 
 # Ignore custom theme build artifacts
@@ -20,9 +12,6 @@ docroot/themes/custom/*/npm-debug.log
 docroot/themes/custom/*/css
 docroot/themes/custom/*/styleguide
 docroot/themes/custom/*/js/dist
-
-# Settings
-docroot/sites/default/settings.php
 
 # Ides.
 .vscode
