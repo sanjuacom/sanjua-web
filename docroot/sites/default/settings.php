@@ -796,7 +796,7 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
-$settings['varnish_control_terminal'] = '127.0.0.1:6082';
+$settings['varnish_control_terminal'] = '127.0.0.1:6084';
 $settings['trusted_host_patterns'] = [
   '^sanjua\.com$',
 ];
