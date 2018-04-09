@@ -1,0 +1,22 @@
+uuid: d036d07b-cae8-410f-afa3-067f1dcf7b27
+langcode: en
+status: true
+dependencies: {  }
+id: 5cf0c96c1c
+name: Home
+invalidationtype: tag
+hostname: 127.0.0.1
+port: 80
+path: /
+request_method: BAN
+scheme: http
+verify: '1'
+headers: {  }
+body: null
+body_content_type: null
+runtime_measurement: true
+timeout: !!float 1
+connect_timeout: !!float 1
+cooldown_time: !!float 0
+max_requests: 100
+http_errors: true

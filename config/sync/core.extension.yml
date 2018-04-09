@@ -26,6 +26,9 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  purge: 0
+  purge_tokens: 0
+  purge_ui: 0
   quickedit: 0
   rdf: 0
   search: 0
@@ -37,6 +40,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  varnish_purger: 0
   views_ui: 0
   menu_link_content: 1
   views: 10
