@@ -3,13 +3,9 @@ docroot/sites/*/files
 /files-private
 docroot/sites/*/private
 
-# Ignore contrib modules. These should be created during build process.
-drush/contrib
-
 # Ignore custom theme build artifacts
 docroot/themes/custom/*/node_modules
 docroot/themes/custom/*/npm-debug.log
-docroot/themes/custom/*/css
 docroot/themes/custom/*/styleguide
 docroot/themes/custom/*/js/dist
 
